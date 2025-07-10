@@ -7,7 +7,7 @@ Unofficial implementation for "No time to train! Training-Free Reference-Based I
 
 ### Results:
 
-|    Query & Support                       |         Automatic Mask     |          Automatic Mask     | 
+|    Query & Support                       |         Automatic Mask     |          Result     | 
 | ------------------------                 |  ---------------------|  ---------------------|
 |     <img src="assets\1.jpg" alt="model architecture" height=150px>    |  <img src="assets\2.jpg" alt="model architecture" height=150px>  | <img src="assets\3.jpg" alt="model architecture" height=150px> |
 |     <img src="assets\4.jpg" alt="model architecture" height=150px>    |  <img src="assets\5.jpg" alt="model architecture" height=150px>  | <img src="assets\6.jpg" alt="model architecture" height=150px> |
