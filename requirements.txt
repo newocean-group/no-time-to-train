@@ -11,3 +11,6 @@ matplotlib==3.10.3
 einops==0.8.1
 opencv-python==4.11.0.86
 jupyter_bbox_widget==0.6.0
+
+torchmetrics==1.8.2
+termcolor==3.2.0
