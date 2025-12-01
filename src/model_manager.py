@@ -5,7 +5,9 @@ from src.helper_functions import *
 class ModelManager:
     def __init__(self, device="cpu"):
         self.device = device
-        self.dinov2_model = None
+        self.dino_model = None
+        self.dino_transform = None
+
         self.sam2_model = None
         self.sam2_predictor = None
         self.sam2_mask_generator = None

@@ -252,11 +252,11 @@ def build_memory_bank(
         for data in ref_images_masks:
             img_path = data["img_path"]
             instance_masks = data["masks"]
-            img_tensor_dinov2 = preprocess_image_for_dino(
+            img_tensor_dino = preprocess_image_for_dino(
                 img_path, dino_transform, device=device
             )
             full_img_features = get_dino_features(
-                dino_model, img_tensor_dinov2, model_name, device=device
+                dino_model, img_tensor_dino, model_name, device=device
             )  # (1, C, H_feat, W_feat)
 
             for mask_np in instance_masks:
